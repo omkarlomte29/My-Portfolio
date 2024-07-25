@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+// import suicide from "../../Assets/Projects/suicide.png";
+// import leaf from "../../Assets/Projects/leaf.png";
+// import emotion from "../../Assets/Projects/emotion.png";
 
 function Projects() {
   return (
@@ -25,10 +25,11 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Service Market Place Platform"
+              // changing remains
+              description="Our Service Marketplace Platform is a comprehensive online hub designed to connect service providers with potential clients seamlessly. Whether you are looking for skilled professionals to handle household tasks, business services, or specialized projects, our platform is built to cater to diverse needs efficiently and reliably."
+              ghLink="https://github.com/omkarlomte29/Service-Market-Place-Platform"
+              demoLink="https://serivce-market-place-platform-getfly-assignment.vercel.app/"
             />
           </Col>
 
@@ -36,10 +37,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Chats"
+              description="Chatting Application using socket in java as server and client."
+              ghLink="https://github.com/omkarlomte29/Chat-Server-Application-Using-JAVA-Swing-Socket"
+              demoLink="#"
             />
           </Col>
 
@@ -47,14 +48,14 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Nutrisafe"
+              description="Online food ordering platform for order food."
+              ghLink="https://github.com/omkarlomte29/Nutrisafe"
+              demoLink="#"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -86,7 +87,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
